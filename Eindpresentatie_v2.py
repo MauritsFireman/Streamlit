@@ -37,7 +37,13 @@ pd.set_option('display.max_columns', None)
 
 
 #Main DF goedmaken
-df = pd.read_csv('CurrentPopulationSurvey1.csv')
+df1 = pd.read_csv('1.csv')
+df2 = pd.read_csv('2.csv')
+df3 = pd.read_csv('3.csv')
+df4 = pd.read_csv('4.csv')
+
+
+df = pd.concat([df1, df2,df3,df4])
 
 
 
