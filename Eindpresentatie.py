@@ -6,9 +6,7 @@
 
 
 #Alle imports
-import requests
-import pandas as pd
-import zipfile
+from platform import java_ver
 import requests
 import pandas as pd
 import zipfile
