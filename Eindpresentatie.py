@@ -13,7 +13,6 @@ import zipfile
 import requests
 import pandas as pd
 import zipfile
-import seaborn as sns
 import plotly.express as px
 import matplotlib.pyplot as plt
 import streamlit as st
